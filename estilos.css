@@ -1,0 +1,88 @@
+/* Configuración básica */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+    font-size: 1.1rem;
+    color: #94a3b8;
+}
+
+/* Contenedor principal */
+.contenedor {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Tarjetas de contenido */
+.tarjeta {
+    background: #ffffff;
+    padding: 1.8rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.tarjeta h2 {
+    color: #0f172a;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+/* Listas */
+.lista-items, .lista-contacto {
+    list-style: none;
+}
+
+.lista-items li, .lista-contacto li {
+    margin-bottom: 0.8rem;
+}
+
+/* Etiquetas de Habilidades */
+.grid-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.etiqueta {
+    background-color: #e2e8f0;
+    color: #334155;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: #64748b;
+    font-size: 0.9rem;
+}
