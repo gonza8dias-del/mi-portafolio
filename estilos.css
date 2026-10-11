@@ -7,18 +7,18 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f6f9;
+    background-color: #f0f4f8; /* Fondo general claro y limpio */
     color: #2d3748;
     line-height: 1.6;
 }
 
 /* Encabezado */
 header {
-    background-color: #0f4c5c;
+    background-color: #0f4c5c; /* Verde/Azul corporativo oscuro (Seguridad) */
     color: #ffffff;
     padding: 3rem 1rem;
     text-align: center;
-    border-bottom: 4px solid #fb8b24;
+    border-bottom: 4px solid #fb8b24; /* Acento naranja (Prevención / Advertencia) */
 }
 
 header h1 {
@@ -33,7 +33,7 @@ header h1 {
 
 /* Contenedor principal */
 .contenedor {
-    max-width: 800px;
+    max-width: 850px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
@@ -45,34 +45,37 @@ header h1 {
     margin-bottom: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    border-left: 5px solid #0f4c5c;
+    border-left: 5px solid #0f4c5c; /* Borde de acento institucional */
 }
 
 .tarjeta h2 {
-    color: #0f172a;
+    color: #0f4c5c;
     border-bottom: 2px solid #e2e8f0;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
     font-size: 1.4rem;
-} 
-/* Estilo para la Foto de perfil*/
+}
+
+/* Estilo para la Foto de Perfil */
 .flex-perfil {
-    display: flex:
-    align-items: center:
+    display: flex;
+    align-items: center;
     gap: 1.5rem;
 }
+
 .foto-perfil {
     width: 130px;
     height: 130px;
-    border-radius: 50% /* Hace la foto circular*/
-    objet-fit: cover:
-    border: 3px solid #0f4c5c; 
+    border-radius: 50%; /* Hace la foto circular */
+    object-fit: cover;
+    border: 3px solid #0f4c5c;
 }
-/* Ajuste respectivo para celulares*/
-@media (max-windth: 600px) {
+
+/* Ajuste responsivo para celulares */
+@media (max-width: 600px) {
     .flex-perfil {
-        flex-direction: column:
-        text-alingn: center;
+        flex-direction: column;
+        text-align: center;
     }
 }
 
@@ -93,8 +96,8 @@ header h1 {
 }
 
 .etiqueta {
-    background-color: #e0f2fe;
-    color: #0369a1;
+    background-color: #e0f2fe; /* Fondo suave azul/verde */
+    color: #0369a1; /* Texto oscuro resaltado */
     padding: 0.4rem 0.8rem;
     border-radius: 20px;
     font-size: 0.9rem;
