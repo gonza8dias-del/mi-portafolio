@@ -6,10 +6,13 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f0f4f8; /* Fondo general claro y limpio */
     color: #2d3748;
     line-height: 1.6;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans_serif;
 }
 
 /* Encabezado */
